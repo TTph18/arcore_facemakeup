@@ -1,0 +1,4 @@
+#Tue May 04 21:14:26 ICT 2021
+base.0=E\:\\Project\\arcore_facemakeup\\arcore_facemakeup\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
