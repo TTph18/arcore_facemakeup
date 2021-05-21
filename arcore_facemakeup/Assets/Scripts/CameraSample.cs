@@ -7,6 +7,7 @@ using System;
 public class CameraSample : MonoBehaviour
 {
 	Button Capture;
+
 	void Update()
 	{
 		Capture.GetComponent<Button>().onClick.AddListener(delegate { captureClicked(); });
