@@ -12,38 +12,38 @@
 
 
 
-// 0x00000001 System.Void SampleCamera::Update()
-extern void SampleCamera_Update_mF8C53ED94FC6AB497C142ED0DF9CCB5F8D30DB24 (void);
-// 0x00000002 System.Void SampleCamera::captureClicked()
-extern void SampleCamera_captureClicked_m878E9B2015562E81ACA4754030005D1CA77BC527 (void);
-// 0x00000003 System.Void SampleCamera::TakePicture(System.Int32)
-extern void SampleCamera_TakePicture_mCA219154C856803A8BB9B40C98242032BB5EAFB9 (void);
-// 0x00000004 System.Void SampleCamera::.ctor()
-extern void SampleCamera__ctor_m4D3C3CC1837505DD4A9A43A7C5706BAA5FD7F631 (void);
-// 0x00000005 System.Void SampleCamera::<Update>b__1_0()
-extern void SampleCamera_U3CUpdateU3Eb__1_0_mFFC19B80A4B7F0DEB3C1A639C72B776F377DFA56 (void);
-// 0x00000006 System.Void SampleCamera/<>c__DisplayClass3_0::.ctor()
-extern void U3CU3Ec__DisplayClass3_0__ctor_m9DA5E4D995F96B08E49F3FCB122B39B4BDB9F397 (void);
-// 0x00000007 System.Void SampleCamera/<>c__DisplayClass3_0::<TakePicture>b__0(System.String)
-extern void U3CU3Ec__DisplayClass3_0_U3CTakePictureU3Eb__0_m1C8CB3FD5236930668EF545970C1F5B8A083432F (void);
-// 0x00000008 System.Void SampleCamera/<>c::.cctor()
-extern void U3CU3Ec__cctor_m91C1A86D16B3891ABF804FA7AC628C2CAE0168EA (void);
-// 0x00000009 System.Void SampleCamera/<>c::.ctor()
-extern void U3CU3Ec__ctor_m426234F4483001CFF7CAC9205396C83C957E6C56 (void);
-// 0x0000000A System.Void SampleCamera/<>c::<TakePicture>b__3_1(System.Boolean,System.String)
-extern void U3CU3Ec_U3CTakePictureU3Eb__3_1_mA331A940D73D0EE4C1A3491BAFC7650BA9837CA5 (void);
+// 0x00000001 System.Void CameraSample::Update()
+extern void CameraSample_Update_mD3A927684273F1261B7BD83A3D0B677AC3186A21 (void);
+// 0x00000002 System.Void CameraSample::captureClicked()
+extern void CameraSample_captureClicked_m5B5254A974F03D2F6631C3CEA1B5AF6105A453BD (void);
+// 0x00000003 System.Void CameraSample::TakePicture(System.Int32)
+extern void CameraSample_TakePicture_mF562F6D2AA7753FEC947BCCCA30187EC679C151B (void);
+// 0x00000004 System.Void CameraSample::.ctor()
+extern void CameraSample__ctor_m2DBFD2D89D23A29403E819A730C09652EB46661C (void);
+// 0x00000005 System.Void CameraSample::<Update>b__1_0()
+extern void CameraSample_U3CUpdateU3Eb__1_0_m903EF13D7D0DB6BD552E37FFD184D227524E9888 (void);
+// 0x00000006 System.Void CameraSample/<>c__DisplayClass3_0::.ctor()
+extern void U3CU3Ec__DisplayClass3_0__ctor_m5BFD278CDB30CD2ECC7809D90EF68C140C2B38A8 (void);
+// 0x00000007 System.Void CameraSample/<>c__DisplayClass3_0::<TakePicture>b__0(System.String)
+extern void U3CU3Ec__DisplayClass3_0_U3CTakePictureU3Eb__0_m0E3E56FEC0826734309CE7545642153BC449F4BC (void);
+// 0x00000008 System.Void CameraSample/<>c::.cctor()
+extern void U3CU3Ec__cctor_m4B5E6E7FED5C18E7A9EA76345AAA11858839EE70 (void);
+// 0x00000009 System.Void CameraSample/<>c::.ctor()
+extern void U3CU3Ec__ctor_m0948B436113FDC65D445971B78A7E43CF84038DA (void);
+// 0x0000000A System.Void CameraSample/<>c::<TakePicture>b__3_1(System.Boolean,System.String)
+extern void U3CU3Ec_U3CTakePictureU3Eb__3_1_mF4A9CF1CDB28A0DAF5D9D916E01575467553E884 (void);
 static Il2CppMethodPointer s_methodPointers[10] = 
 {
-	SampleCamera_Update_mF8C53ED94FC6AB497C142ED0DF9CCB5F8D30DB24,
-	SampleCamera_captureClicked_m878E9B2015562E81ACA4754030005D1CA77BC527,
-	SampleCamera_TakePicture_mCA219154C856803A8BB9B40C98242032BB5EAFB9,
-	SampleCamera__ctor_m4D3C3CC1837505DD4A9A43A7C5706BAA5FD7F631,
-	SampleCamera_U3CUpdateU3Eb__1_0_mFFC19B80A4B7F0DEB3C1A639C72B776F377DFA56,
-	U3CU3Ec__DisplayClass3_0__ctor_m9DA5E4D995F96B08E49F3FCB122B39B4BDB9F397,
-	U3CU3Ec__DisplayClass3_0_U3CTakePictureU3Eb__0_m1C8CB3FD5236930668EF545970C1F5B8A083432F,
-	U3CU3Ec__cctor_m91C1A86D16B3891ABF804FA7AC628C2CAE0168EA,
-	U3CU3Ec__ctor_m426234F4483001CFF7CAC9205396C83C957E6C56,
-	U3CU3Ec_U3CTakePictureU3Eb__3_1_mA331A940D73D0EE4C1A3491BAFC7650BA9837CA5,
+	CameraSample_Update_mD3A927684273F1261B7BD83A3D0B677AC3186A21,
+	CameraSample_captureClicked_m5B5254A974F03D2F6631C3CEA1B5AF6105A453BD,
+	CameraSample_TakePicture_mF562F6D2AA7753FEC947BCCCA30187EC679C151B,
+	CameraSample__ctor_m2DBFD2D89D23A29403E819A730C09652EB46661C,
+	CameraSample_U3CUpdateU3Eb__1_0_m903EF13D7D0DB6BD552E37FFD184D227524E9888,
+	U3CU3Ec__DisplayClass3_0__ctor_m5BFD278CDB30CD2ECC7809D90EF68C140C2B38A8,
+	U3CU3Ec__DisplayClass3_0_U3CTakePictureU3Eb__0_m0E3E56FEC0826734309CE7545642153BC449F4BC,
+	U3CU3Ec__cctor_m4B5E6E7FED5C18E7A9EA76345AAA11858839EE70,
+	U3CU3Ec__ctor_m0948B436113FDC65D445971B78A7E43CF84038DA,
+	U3CU3Ec_U3CTakePictureU3Eb__3_1_mF4A9CF1CDB28A0DAF5D9D916E01575467553E884,
 };
 static const int32_t s_InvokerIndices[10] = 
 {
