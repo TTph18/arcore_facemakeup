@@ -1,5 +1,5 @@
 sceneSetups:
-- path: E:/Project/Unity-ARFoundation-echoAR-example/Assets/AR Foundation/Scenes/FaceTracking/FaceMesh.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
