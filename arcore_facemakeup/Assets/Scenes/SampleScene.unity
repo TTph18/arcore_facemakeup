@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,9 +130,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2767182123862231639, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 881461553}
+    - target: {fileID: 2767182123862231639, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenMainPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182123957847559, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6452b7735d42cf141b5d915f95ea133b, type: 3}
+    - target: {fileID: 2767182124302545929, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115
+      objectReference: {fileID: 0}
     - target: {fileID: 2767182124302545934, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182124323103466, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6452b7735d42cf141b5d915f95ea133b, type: 3}
+    - target: {fileID: 2767182124333362144, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1130664906}
+    - target: {fileID: 2767182124333362144, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenMainPanel
       objectReference: {fileID: 0}
     - target: {fileID: 2767182124608424576, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Text
@@ -202,7 +230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2767182124799139271, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2767182124799139271, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -279,6 +307,10 @@ PrefabInstance:
     - target: {fileID: 2767182125201764292, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125201764295, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2767182125213522107, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Pivot.x
@@ -384,6 +416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Album
       objectReference: {fileID: 0}
+    - target: {fileID: 2767182125526523650, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6452b7735d42cf141b5d915f95ea133b, type: 3}
     - target: {fileID: 2767182125705237748, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -410,7 +446,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2767182125931736620, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125931736622, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125931736622, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Color.b
+      value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125931736622, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Color.g
+      value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125931736622, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Color.r
+      value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125931736623, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125931736623, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2767182124799139265, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
@@ -418,6 +478,9 @@ PrefabInstance:
     - {fileID: 2767182124652814741, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
     - {fileID: 2767182125008980319, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
     - {fileID: 2767182125084329924, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+    - {fileID: 6469938853070173236, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+    - {fileID: 2767182124333362147, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+    - {fileID: 2767182123862231638, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
 --- !u!1 &37932418 stripped
 GameObject:
@@ -598,6 +661,40 @@ MonoBehaviour:
   EffectPanel: {fileID: 37932421}
   AlbumPanel: {fileID: 37932420}
   FilterPanel: {fileID: 37932419}
+--- !u!114 &37932447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37932421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268e5dcaaefdd234f8391c78d326663c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainPanel: {fileID: 0}
+  MakeupPanel: {fileID: 0}
+  EffectPanel: {fileID: 0}
+  AlbumPanel: {fileID: 0}
+  FilterPanel: {fileID: 0}
+--- !u!114 &37932480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37932422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268e5dcaaefdd234f8391c78d326663c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainPanel: {fileID: 0}
+  MakeupPanel: {fileID: 0}
+  EffectPanel: {fileID: 0}
+  AlbumPanel: {fileID: 0}
+  FilterPanel: {fileID: 0}
 --- !u!1 &40919614
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +1034,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &881461550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2767182123862231637, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+  m_PrefabInstance: {fileID: 37932417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &881461553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881461550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268e5dcaaefdd234f8391c78d326663c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainPanel: {fileID: 37932423}
+  MakeupPanel: {fileID: 37932422}
+  EffectPanel: {fileID: 37932421}
+  AlbumPanel: {fileID: 37932420}
+  FilterPanel: {fileID: 37932419}
 --- !u!1 &1114040580
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,3 +1115,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1130664903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2767182124333362150, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+  m_PrefabInstance: {fileID: 37932417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1130664906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130664903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268e5dcaaefdd234f8391c78d326663c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainPanel: {fileID: 37932423}
+  MakeupPanel: {fileID: 37932422}
+  EffectPanel: {fileID: 37932421}
+  AlbumPanel: {fileID: 37932420}
+  FilterPanel: {fileID: 37932419}
