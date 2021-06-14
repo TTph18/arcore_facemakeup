@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2767182124302545934, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2767182124323103466, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
@@ -435,10 +435,22 @@ PrefabInstance:
     - target: {fileID: 2767182125705237749, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 37932429}
+      objectReference: {fileID: 37932472}
     - target: {fileID: 2767182125705237749, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125705237749, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CaptureClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125705237749, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CameraSample, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767182125705237749, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2767182125705237754, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_SizeDelta.x
@@ -446,7 +458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2767182125931736620, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2767182125931736622, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Color.a
@@ -644,23 +656,6 @@ MonoBehaviour:
   EffectPanel: {fileID: 37932421}
   AlbumPanel: {fileID: 37932420}
   FilterPanel: {fileID: 37932419}
---- !u!114 &37932436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37932429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 268e5dcaaefdd234f8391c78d326663c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainPanel: {fileID: 37932423}
-  MakeupPanel: {fileID: 37932422}
-  EffectPanel: {fileID: 37932421}
-  AlbumPanel: {fileID: 37932420}
-  FilterPanel: {fileID: 37932419}
 --- !u!114 &37932447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,6 +673,18 @@ MonoBehaviour:
   EffectPanel: {fileID: 0}
   AlbumPanel: {fileID: 0}
   FilterPanel: {fileID: 0}
+--- !u!114 &37932472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37932429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52eeb8a7dc1b5944f899c38315ed6470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &37932480
 MonoBehaviour:
   m_ObjectHideFlags: 0
